@@ -69,3 +69,6 @@ export const GET_METADATA = (modname: string, verison: string) =>
  */
 export const GET_RAW_SOURCE = (modname: string, verison: string, path: string) =>
   CDN_BASEURL + '/' + modname +  '/versions/' + verison + '/raw' + path
+
+export const GET_DOC_SOURCE = (path: string) =>
+  DOC_BASEURL + '/api/docs?entrypoint=' + path
