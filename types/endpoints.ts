@@ -1,4 +1,4 @@
-import { API_BASEURL, CDN_BASEURL } from '../consts/baseURLs.ts'
+import { API_BASEURL, CDN_BASEURL, DOC_BASEURL } from '../consts/baseURLs.ts'
 import type { ResultSort } from './responses.ts'
 
 /**
